@@ -108,4 +108,4 @@ def main(page: Page):
 
 
 # ft.app(target=main, assets_dir="../assets")
-ft.app(target=main, port=8550, view=ft.WEB_BROWSER, assets_dir="assets")
+ft.app(target=main, port=8550, assets_dir="assets")

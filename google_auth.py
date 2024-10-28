@@ -4,7 +4,7 @@ from flet import (
     ElevatedButton,
     Page,
 )
-from flet.auth.providers.google_oauth_provider import GoogleOAuthProvider
+from flet.auth.providers import GoogleOAuthProvider
 import os
 from dotenv import load_dotenv
 load_dotenv()
